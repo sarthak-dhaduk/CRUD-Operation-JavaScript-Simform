@@ -7,12 +7,12 @@ var redirectToFlexData = document.getElementById("redirectToFlexData");
 
 redirectToProducts.addEventListener("click", e => {
     e.preventDefault();
-    location.replace("/index.html")
+    location.replace("./index.html")
 });
 
 redirectToFlexData.addEventListener("click", e => {
     e.preventDefault();
-    location.replace("/flexdata.html")
+    location.replace("./flexdata.html")
 });
 
 function after30() {
