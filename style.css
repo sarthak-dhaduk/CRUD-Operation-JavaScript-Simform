@@ -1,0 +1,64 @@
+body {
+    font-size: 14px;
+    background-color: #f1f3f6;
+    color: #212121;
+}
+.bg-primary {
+    background-color: #868d97!important;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+}
+a.nav-link{
+    font-size: 17px;
+    color: #fff;
+}
+a.nav-link:hover{
+    font-size: 17px;
+    color: #fff;
+}
+.nav-item-cc{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.search-product{
+    margin-left: 5px;
+}
+.search-f-s{
+    width: 500px;
+}
+.s-f-s{
+    display: flex;
+    margin-top: 23px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 60px;
+    height: 40px;
+}
+.fdofnav{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+}
+.modal-backdrop.show {
+    opacity: 0.5;
+}
+.modal-backdrop {
+    opacity: 0;
+}
+@media (max-width: 768px) {
+    .container-fluid{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 1024px) {
+    .container-fluid{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+@media (max-width: 1440px) {
+    .container-fluid{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
